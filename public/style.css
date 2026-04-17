@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  margin-bottom: 12px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+input[type="file"] {
+  display: block;
+  margin-bottom: 12px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#status {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.gallery {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
